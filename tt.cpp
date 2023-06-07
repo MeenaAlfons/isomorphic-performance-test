@@ -155,7 +155,7 @@ int main() {
     const vector<vector<double>> results = testRunner(data, vector<isIsomorphicFunc>{
         isIsomorphicStd,
         isIsomorphicArray
-    }, 1000);
+    });
 
     cout << "isIsomorphicStd => " << avg(results[0])/1000 << endl;
     cout << "isIsomorphicArray => " << avg(results[1])/1000 << endl;
